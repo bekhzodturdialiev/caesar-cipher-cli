@@ -1,0 +1,11 @@
+{
+  "name": "ceaser",
+  "version": "1.0.0",
+  "description": "Encoding and decoding english letters by ceaser cipher",
+  "main": "ceaser/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bekhzod Turdialiev",
+  "license": "ISC"
+}
