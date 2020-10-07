@@ -1,8 +1,8 @@
 {
-  "name": "ceaser",
+  "name": "caesar",
   "version": "1.0.0",
-  "description": "Encoding and decoding english letters by ceaser cipher",
-  "main": "ceaser/index.js",
+  "description": "Encoding and decoding english letters by caesar cipher",
+  "main": "caesar/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
