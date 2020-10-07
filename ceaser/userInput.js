@@ -1,4 +1,4 @@
-const cipher = require("./cipher");
+const { process } = require("./process");
 
 exports.check = (shift, action, input, output) => {
   if (shift === true || shift === undefined) {
@@ -11,5 +11,7 @@ exports.check = (shift, action, input, output) => {
     return;
   }
 
-  cipher.ceaser(shift, action, input, output);
+  shift = (action === "encode" ? shift : shift * -1) % 26;
+
+  process(shift, input, output);
 };
